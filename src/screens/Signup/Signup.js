@@ -105,7 +105,7 @@ class Signup extends Component {
                         <br /><br />
 
                         <Typography variant="body2" >
-                            Already on QuizCloud?
+                            Already on MelangeQuiz?
                 </Typography>
 
                         <Button className="formEle" variant="contained" color="secondary" onClick={showLogin}>

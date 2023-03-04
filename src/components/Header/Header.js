@@ -17,7 +17,7 @@ class Header extends Component {
         <AppBar position="fixed" color="primary" >
           <Toolbar>
             <Typography variant="title" color="inherit" style={{flexGrow:'1',textAlign:'left'}}>
-              QuizCloud
+              MelangeQuiz
             </Typography>
             { logout? <Button size="small" color="inherit" onClick={() => logout()}>LogOut</Button> : null}
           </Toolbar>

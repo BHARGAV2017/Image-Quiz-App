@@ -6,6 +6,17 @@ import QuizInfo from './screens/QuizInfo/QuizInfo'
 import StartQuiz from './screens/StartQuiz/StartQuiz'
 import './App.css';
 
+// import myImg1 from 'E:/nath/React_Quiz_app/src/images/Picture1.png';
+// import myImg2 from 'E:/nath/React_Quiz_app/src/images/Picture2.png';
+// import myImg3 from 'E:/nath/React_Quiz_app/src/images/Picture3.png';
+// import myImg4 from 'E:/nath/React_Quiz_app/src/images/Picture4.png';
+// import myImg5 from 'E:/nath/React_Quiz_app/src/images/Picture6.png';
+// import myImg6 from 'E:/nath/React_Quiz_app/src/images/Picture7.png';
+// import myImg7 from 'E:/nath/React_Quiz_app/src/images/Picture8.png';
+// import myImg8 from 'E:/nath/React_Quiz_app/src/images/Picture9.png';
+// import myImg9 from 'E:/nath/React_Quiz_app/src/images/Picture1.png';
+
+
 import 'typeface-roboto'
 
 class App extends Component {
@@ -23,27 +34,30 @@ class App extends Component {
             {
               name: 'Quiz 1', questions: '3', time: '30 sec', score: false,
               qArr: [
-                {
-                  question: "What is use for image insertion?",
-                  option1: "img",
-                  option2: "h1",
+                { 
+                  // qimg: myImg8,
+                  question: "Q. GUESS THE ARTIST ?",
+                  option1: "SALVADOR DALI ",
+                  option2: "VINCENT VAN GOGH",
                   option3: "none",
                   option4: "body",
                   answer: "1"
+              
                 },
                 {
-                  question: "To underline the text?",
-                  option1: "u",
-                  option2: "underline",
+                  // qimg: myImg7,
+                  question: "Q. NAME THE BUILDING ?",
+                  option1: "BAHÁ'Í  HOUSE ",
+                  option2: "PADMANABHASWAMY TEMPLE",
                   option3: "style",
                   option4: "none",
                   answer: "1"
                 },
                 {
-
-                  question: "HTML stands for?",
-                  option1: "HYPER TEXT MARKUP LANGUAGE'",
-                  option2: "HTPER TEXT TELESCOPR",
+                  // qimg: myImg6,
+                  question: "Q. GUESS THE NAME OF THE FASHION DESIGNER ?",
+                  option1: "MANISH MALHOTRA '",
+                  option2: "SABYASACHI MUKHERJEE",
                   option3: "HELP TEXT TERMINAL LANGUAGE",
                   option4: "NONE",
                   answer: "1"
@@ -55,14 +69,16 @@ class App extends Component {
               name: 'Quiz 2', questions: '3', time: '30 sec', score: false,
               qArr: [
                 {
-                  question: "HTML use for?",
-                  option1: "structure",
-                  option2: "styling",
+                  // qimg: myImg5,
+                  question: "Q. NAME THE ANIMATION STUDIO?",
+                  option1: "PIXAR",
+                  option2: "DREAMWORKS",
                   option3: "scripting",
                   option4: "none",
                   answer: "1"
                 },
                 {
+                  // qimg: myImg4,
                   question: "To underline the text?",
                   option1: "u",
                   option2: "underline",
@@ -71,10 +87,10 @@ class App extends Component {
                   answer: "1"
                 },
                 {
-
-                  question: "HTML stands for?",
-                  option1: "HYPER TEXT MARKUP LANGUAGE'",
-                  option2: "HTPER TEXT TELESCOPR",
+                  // qimg: myImg3,
+                  question: "Q. WHO IS THE FAMOUS ARTIST OF MONA LISA ?",
+                  option1: "EDVARD MUNCH",
+                  option2: "LEONARDO  DA VINCI",
                   option3: "HELP TEXT TERMINAL LANGUAGE",
                   option4: "NONE",
                   answer: "1"
@@ -92,6 +108,7 @@ class App extends Component {
               name: 'Quiz 1', questions: '6', time: '30 sec', score: false,
               qArr: [
                 {
+                  // qimg: myImg2,
                   question: "Css stands for?",
                   option1: "cascading style sheet'",
                   option2: "cascade sheet style",
@@ -100,6 +117,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
+                  // qimg: myImg1,
                   question: "to change the color we use",
                   option1: "color:",
                   option2: "setColor:",
@@ -108,6 +126,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
+                  // qimg: myImg9,
                   question: "How to link css?",
                   option1: "using link",
                   option2: "using button",
@@ -116,6 +135,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
+                  // qimg: myImg8,
                   question: "To change the color we use?",
                   option1: "color:",
                   option2: "setColor:",
@@ -124,6 +144,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
+                  // qimg: myImg7,
                   question: "How to link css?",
                   option1: "using link",
                   option2: "using button",
@@ -132,6 +153,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
+                  // qimg: myImg6,
                   question: "How to link css?",
                   option1: "using link",
                   option2: "using button",
@@ -153,6 +175,7 @@ class App extends Component {
               name: 'Quiz 1', questions: '4', time: '30 sec', score: false,
               qArr: [
                 {
+                  // qimg: myImg5,
                   question: "How to create alert box?",
                   option1: "alert='hello world'",
                   option2: "aler('hello world')",
@@ -161,7 +184,7 @@ class App extends Component {
                   answer: "4"
                 },
                 {
-
+                  // qimg: myImg4,
                   question: "How to initialize variable?",
                   option1: "variable name = 'ali'",
                   option2: "var name = 'ali'",
@@ -170,7 +193,7 @@ class App extends Component {
                   answer: "2"
                 },
                 {
-
+                  // qimg: myImg3,
                   question: "How to push value in array?",
                   option1: "arr.push(value)",
                   option2: "arr.push.value",
@@ -179,7 +202,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
-
+                  // qimg: myImg2,
                   question: "What is javascript?",
                   option1: "programming language",
                   option2: "scripting language",
@@ -193,7 +216,7 @@ class App extends Component {
               name: 'Quiz 2', questions: '6', time: '30 sec', score: false,
               qArr: [
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "Which creates random number?",
                   option1: "Math.floor()",
                   option2: "Math.ceil()",
@@ -202,7 +225,7 @@ class App extends Component {
                   answer: "3"
                 },
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "What does array returns?",
                   option1: "function",
                   option2: "object",
@@ -211,7 +234,7 @@ class App extends Component {
                   answer: "2"
                 },
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "Object property name & value are separated by?",
                   option1: "semicolon ;",
                   option2: "colon :",
@@ -220,7 +243,7 @@ class App extends Component {
                   answer: "2"
                 },
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "Object properties are separated by?",
                   option1: "comma ,",
                   option2: "dot .",
@@ -229,7 +252,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "What is the correct syntax for object initialization?",
                   option1: "var var_name = {property_name:property_value}",
                   option2: "var var_name = {property_value:property_name}",
@@ -238,7 +261,7 @@ class App extends Component {
                   answer: "1"
                 },
                 {
-
+                  // qimg: require("./images/Picture7.png"),
                   question: "DOM stands for?",
                   option1: "document object modification",
                   option2: "document observed module",

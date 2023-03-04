@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header'
 // import lightBlue from '@material-ui/core/colors/lightBlue';
+// import myImg from 'E:/nath/React_Quiz_app/src/images/Picture7.png';
+
+import myImg1 from 'E:/nath/React_Quiz_app/src/images/Picture1.png';
+import myImg2 from 'E:/nath/React_Quiz_app/src/images/Picture2.png';
+import myImg3 from 'E:/nath/React_Quiz_app/src/images/Picture3.png';
+import myImg4 from 'E:/nath/React_Quiz_app/src/images/Picture4.png';
+import myImg5 from 'E:/nath/React_Quiz_app/src/images/Picture5.png';
+import myImg6 from 'E:/nath/React_Quiz_app/src/images/Picture6.png';
+import myImg7 from 'E:/nath/React_Quiz_app/src/images/Picture7.png';
+import myImg8 from 'E:/nath/React_Quiz_app/src/images/Picture8.png';
+import myImg9 from 'E:/nath/React_Quiz_app/src/images/Picture9.png';
+import myImg10 from 'E:/nath/React_Quiz_app/src/images/Picture10.png';
+import myImg11 from 'E:/nath/React_Quiz_app/src/images/Picture11.png';
+import myImg12 from 'E:/nath/React_Quiz_app/src/images/Picture12.png';
+import myImg13 from 'E:/nath/React_Quiz_app/src/images/Picture13.png';
+import myImg14 from 'E:/nath/React_Quiz_app/src/images/Picture14.png';
+import myImg15 from 'E:/nath/React_Quiz_app/src/images/Picture15.png';
+import myImg16 from 'E:/nath/React_Quiz_app/src/images/Picture16.png';
+import myImg17 from 'E:/nath/React_Quiz_app/src/images/Picture17.png';
+import myImg18 from 'E:/nath/React_Quiz_app/src/images/Picture18.png';
+import myImg19 from 'E:/nath/React_Quiz_app/src/images/Picture19.png';
+import myImg20 from 'E:/nath/React_Quiz_app/src/images/Picture20.png';
 
 import Button from '@material-ui/core/Button';
 import NavigateNext from '@material-ui/icons/NavigateNext';
@@ -178,6 +200,9 @@ class QuizList extends Component {
   render() {
     const { started, qstnNo, back, quizName, subQuizName, logout } = this.props;
     const { correct, scored, min, sec } = this.state;
+
+    const myImg = [myImg1 ,myImg2 ,myImg3 ,myImg4, myImg5 ,myImg6 ,myImg7 ,myImg8, myImg9, myImg10, myImg11 ,myImg12 ,myImg13 ,myImg14, myImg15 ,myImg16 ,myImg17 ,myImg18, myImg19,myImg20];
+
     return (
       <div style={{ margin: '80px 3% 3% 3%' }}>
 
@@ -226,7 +251,8 @@ class QuizList extends Component {
 
 
               <FormControl component="fieldset" style={{ margin: '15px 15px 30px 15px' }}>
-
+                <img src= {myImg[qstnNo]} width={250} height={250} alt='Quizz Image' />
+                {/* console.log(qstnNo) */}
                 <h3>{qstnNo + 1}. {started.qArr[qstnNo].question}</h3>
                 {/* <FormLabel component="legend">Gender</FormLabel> */}
                 <RadioGroup
